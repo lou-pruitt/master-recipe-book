@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Master Recipe Book</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Master Recipe Book</h1>
+      <p>Approved recipes only</p>
+    </header>
+
+    <main>
+      <aside>
+        <h2>Filters</h2>
+
+        <label>
+          Category
+          <select>
+            <option>All</option>
+            <option>Breakfast</option>
+            <option>Lunch</option>
+            <option>Dinner</option>
+            <option>Snacks</option>
+            <option>Desserts</option>
+          </select>
+        </label>
+
+        <label>
+          Max Prep Time (minutes)
+          <input type="number" placeholder="Any" />
+        </label>
+
+        <button id="clear-filters">Clear filters</button>
+      </aside>
+
+      <section id="recipe-list">
+        <article>
+          <h3>
+            <a href="recipe.html">Avocado Toast</a>
+          </h3>
+          <p>Breakfast • 10 minutes</p>
+        </article>
+
+        <!-- More recipes will go here -->
+      </section>
+    </main>
+    <script src="js/recipes.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

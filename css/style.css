@@ -1,0 +1,147 @@
+/* ---------- Base ---------- */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  color: #222;
+  background: #fafafa;
+  line-height: 1.6;
+}
+
+a {
+  color: #222;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ---------- Header ---------- */
+
+header {
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+  padding: 1.25rem 1.5rem;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+header p {
+  margin: 0.25rem 0 0;
+  color: #555;
+}
+
+/* ---------- Main Layout ---------- */
+
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 1.5rem;
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  gap: 2rem;
+}
+
+/* ---------- Filters ---------- */
+
+aside {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 1rem;
+}
+
+aside h2 {
+  margin-top: 0;
+  font-size: 1.2rem;
+}
+
+aside label {
+  display: block;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
+
+aside select,
+aside input {
+  width: 100%;
+  margin-top: 0.25rem;
+  padding: 0.4rem;
+  font-size: 0.9rem;
+}
+
+/* ---------- Recipe List ---------- */
+
+#recipe-list article {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+#recipe-list h3 {
+  margin: 0 0 0.25rem;
+  font-size: 1.1rem;
+}
+
+#recipe-list p {
+  margin: 0;
+  color: #555;
+  font-size: 0.9rem;
+}
+
+/* ---------- Recipe Page ---------- */
+
+.recipe-page {
+  max-width: 700px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 1.5rem;
+}
+
+.recipe-page img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  margin-bottom: 1.5rem;
+}
+
+.recipe-page h1 {
+  margin-top: 0;
+}
+
+.recipe-page section {
+  margin-bottom: 2rem;
+}
+
+.recipe-page h2 {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 0.25rem;
+  margin-bottom: 0.75rem;
+  font-size: 1.3rem;
+}
+
+.recipe-page ul,
+.recipe-page ol {
+  padding-left: 1.2rem;
+}
+
+.recipe-page li {
+  margin-bottom: 0.4rem;
+}
+
+/* ---------- Footer Link ---------- */
+
+.back-link {
+  max-width: 700px;
+  margin: 1rem auto 0;
+  padding: 0 1.5rem;
+  font-size: 0.9rem;
+}
